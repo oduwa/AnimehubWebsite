@@ -1,7 +1,7 @@
 from flask import Flask, flash, request, redirect, render_template, url_for
 from werkzeug.utils import secure_filename
 import json, os
-application = Flask(__name__)
+application = Flask(__name__, static_url_path='')
 
 
 @application.route('/', methods=['GET', 'POST'])
