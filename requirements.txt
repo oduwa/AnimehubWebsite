@@ -1,0 +1,4 @@
+flask
+requests
+pillow
+stripe==2.51.0
